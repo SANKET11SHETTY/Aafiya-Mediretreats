@@ -457,3 +457,83 @@ footer {
 .footer-bottomend p {
   display: inline;
 }
+
+/* Dark Mode */
+
+.darkModer {
+  background: black !important;
+  color: white !important;
+}
+
+
+.darkmoding {
+  padding: 0;
+  width: 30px;
+  height: 30px;
+  
+  font-size: 2px !important;
+}
+.darkmoding svg {
+  width: 15px;
+  height: 15px;
+  margin-left: -3px !important;
+}
+
+.darkmoding svg:last-child{
+  display: none;
+  color: black;
+}
+.logo2{
+  display: none;
+}
+
+.darkModer .logo1{
+  display: none;
+}
+.darkModer .logo2{
+  display: block;
+}
+
+.logo2{
+  margin-bottom: -30px !important;
+}
+
+
+.darkModer .accordion {
+  --bs-accordion-btn-bg: black !important;
+  --bs-accordion-btn-color: white !important;
+  --bs-accordion-active-bg: black !important;
+  --bs-accordion-active-color: white;
+}
+
+.darkModer .car-doc-title h3{
+  color: black;
+}
+
+.darkModer .rc-Hosp h3{
+  color: white;
+}
+
+.darkModer .cards p{
+  color: black;
+
+}
+
+.darkModer .submit-form {
+  box-shadow: #05a0f6 0px 3px 6px, #51bffd 0px 3px 6px;
+}
+
+
+.darkModer .darkmoding svg:first-child{
+  display: none;
+}
+
+.darkModer .darkmoding svg:last-child{
+  display: block;
+  color: black;
+}
+
+.darkModer .h2-ic img{
+  background-color: rgba(255, 255, 255, 0.316);
+border-radius:30%;
+}

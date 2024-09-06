@@ -132,6 +132,12 @@
   }
 }
 
+@media (min-width: 433px) and (max-width: 578px) {
+  .accordion .ab-1 {
+    padding-right: 135px !important;
+  }
+}
+
 @media (min-width: 1200px) and (max-width: 1399px) {
   .accordion-button {
     padding-right: 95px !important;
