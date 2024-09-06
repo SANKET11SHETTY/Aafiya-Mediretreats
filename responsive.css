@@ -1,0 +1,649 @@
+@media screen and (max-width: 576px) {
+  .head-top {
+    margin-top: 2px !important;
+    display: flex;
+    flex-direction: column;
+  }
+  .head-top .logo img {
+    padding-top: 0;
+    margin-top: 0;
+    width: 250px !important;
+    height: 45px;
+  }
+
+  .head-right {
+    height: 40px;
+    padding-top: 10px;
+    padding-bottom: 0px !important;
+    margin-top: 0px !important;
+
+    /* display: none; */
+  }
+  .head-right p {
+    font-size: 5px;
+  }
+  .head-right h6 {
+    font-size: 8px;
+  }
+  .head-right img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .h-right img {
+    margin-right: 7px;
+    margin-top: 0px;
+  }
+  .head1 {
+    margin-right: 5px;
+  }
+
+  .nav2 {
+    height: 380px;
+    width: 250px;
+    text-align: center;
+  }
+  .nav2 ul {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+  }
+
+  .sec-2-active a {
+    padding-bottom: 4px !important;
+  }
+  .sec-2-active {
+    width: 70px;
+    text-align: right !important;
+    margin-left: 50px;
+    margin-bottom: 20px;
+  }
+  .sec-1 {
+    padding-top: 40px;
+    padding-left: 20px !important;
+  }
+
+  .sec1-btm p {
+    width: 100%;
+  }
+
+  .submit-form {
+    width: 100%;
+  }
+
+  .treatment-ovr img {
+    height: 250px;
+  }
+  .sec-3 p {
+    width: 100%;
+    padding-bottom: 20px !important;
+  }
+
+  section .r2 {
+    margin-top: 0px !important;
+  }
+
+  .content-ft-main {
+    position: absolute;
+    width: 300px !important;
+    top: -2%;
+    right: 5%;
+  }
+  .card-img img {
+    width: 300px;
+  }
+
+  .footer-logo2 img {
+    width: 350px;
+  }
+
+  .footer-bottomend {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .footer-bottomend span {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 30px;
+  }
+
+  .accordion-button {
+    margin-left: 10px;
+    padding-right: 0px !important;
+  }
+  .accordion .ab-1 {
+    padding-right: 0px !important;
+  }
+  .accordion .ab-3 {
+    padding-right: 0px !important;
+  }
+  .accordion .ab-4 {
+    padding-right: 0px !important;
+  }
+
+  .accordion-body p {
+    font-size: 10px !important;
+  }
+
+  .fotr-bg-img {
+    background-position: center;
+    background-attachment: unset;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .accordion-button {
+    padding-right: 95px !important;
+  }
+  .accordion .ab-1 {
+    padding-right: 320px !important;
+  }
+  .accordion .ab-3 {
+    padding-right: 174px !important;
+  }
+  .accordion .ab-4 {
+    padding-right: 148px !important;
+  }
+
+  .card-img img {
+    width: 300px;
+    height: 211px;
+    padding-top: 10px;
+  }
+
+  .card-title h6 {
+    width: 75%;
+  }
+}
+
+@media (min-width: 1132px) and (max-width: 1199px) {
+  .h-right img {
+    margin-right: 7px;
+    margin-top: 0px;
+  }
+
+  .knee-rep img {
+    width: 450px;
+  }
+
+  .submit-form {
+    width: 100%;
+  }
+
+  .accordion-button {
+    padding-right: 05px !important;
+  }
+  .accordion .ab-1 {
+    padding-right: 200px !important;
+  }
+  .accordion .ab-3 {
+    padding-right: 57px !important;
+  }
+  .accordion .ab-4 {
+    padding-right: 30px !important;
+  }
+
+  .card-img img {
+    width: 250px;
+    height: 180px;
+    padding-top: 10px;
+  }
+
+  .card-img svg {
+    width: 50px;
+    height: 50px;
+    right: 30%;
+  }
+
+  .card-title h6 {
+    width: 100%;
+    font-size: 15px;
+  }
+
+  .card-title img {
+    width: 40px;
+    height: 30px;
+  }
+  .card-main p {
+    font-size: 12px;
+  }
+
+  .footer-logo2 img {
+    width: 220px;
+  }
+
+  .about-footer p {
+    font-size: 15px;
+  }
+
+  .footer-top ul li {
+    font-size: 13px;
+  }
+
+  section .r2 {
+    margin-top: -100px !important;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1131px) {
+  .head-top {
+    height: 60px !important;
+  }
+
+  .head-right {
+    padding-left: -100 !important;
+    margin-top: 0px;
+  }
+
+  .head-right p {
+    font-size: 11px;
+  }
+  .head-right h6 {
+    font-size: 11px;
+  }
+
+  .logo img {
+    width: 150px !important;
+  }
+  .h2-ic img {
+    margin-top: 0;
+  }
+
+  .navbar {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+
+  .navbar .container-fluid {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+
+  .navbar .nav-search {
+    margin-right: 30px !important;
+  }
+  .navbar ul {
+    padding-left: 20px !important;
+  }
+
+  .navbar ul li a {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+
+  .nav-2 ul li a {
+    font-size: 13px;
+  }
+
+  .treatment-ovr {
+    margin: 0 !important;
+    margin-left: 500px !important;
+  }
+  .submit-form {
+    width: 95%;
+  }
+  section .r2 {
+    margin-top: -100px !important;
+  }
+
+  .accordion-button {
+    padding-right: 05px !important;
+  }
+  .accordion .ab-1 {
+    padding-right: 200px !important;
+  }
+  .accordion .ab-3 {
+    padding-right: 57px !important;
+  }
+  .accordion .ab-4 {
+    padding-right: 30px !important;
+  }
+  .card-img img {
+    width: 220px;
+    height: 185px;
+    padding-top: 10px;
+  }
+
+  .card-img svg {
+    width: 50px;
+    height: 50px;
+    right: 30%;
+  }
+
+  .card-title h6 {
+    width: 100%;
+    font-size: 15px;
+  }
+
+  .card-title img {
+    width: 40px;
+    height: 30px;
+  }
+  .card-main p {
+    font-size: 12px;
+  }
+
+  .cards2 .image img {
+    height: 250px !important;
+  }
+
+  .footer-logo2 img {
+    width: 220px;
+  }
+
+  .about-footer p {
+    font-size: 15px;
+  }
+
+  .footer-top ul li {
+    font-size: 13px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .head-top {
+    height: 50px !important;
+  }
+
+  .head-right {
+    padding-left: -100 !important;
+    margin-top: 0px;
+  }
+
+  .head-right p {
+    font-size: 8px;
+  }
+  .head-right h6 {
+    font-size: 10px;
+  }
+
+  .logo img {
+    width: 150px !important;
+  }
+  .head1 img {
+    width: 30px !important;
+  }
+
+  .h2-ic img {
+    width: 20px !important;
+    height: 20px !important;
+  }
+
+  .head5 img {
+    width: 30px !important;
+    height: 20px !important;
+  }
+
+  .navbar {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+
+  .navbar .container-fluid {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+
+  .navbar .nav-search {
+    margin-right: 30px !important;
+  }
+  .navbar ul {
+    padding-left: 0px !important;
+  }
+
+  .navbar ul li a {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+
+  .nav-2 ul li a {
+    font-size: 11px;
+  }
+
+  .submit-form {
+    width: 95%;
+  }
+  section .r2 {
+    margin-top: 0px !important;
+  }
+
+  .accordion-button {
+    padding-right: 25px !important;
+  }
+  .accordion .ab-1 {
+    padding-right: 250px !important;
+  }
+  .accordion .ab-3 {
+    padding-right: 107px !important;
+  }
+  .accordion .ab-4 {
+    padding-right: 80px !important;
+  }
+  .card-img img {
+    width: 270px;
+    height: 195px;
+    padding-top: 10px;
+  }
+
+  .card-img svg {
+    width: 50px;
+    height: 50px;
+    right: 30%;
+  }
+
+  .card-title h6 {
+    width: 100%;
+    font-size: 15px;
+  }
+
+  .card-title img {
+    width: 40px;
+    height: 30px;
+  }
+  .card-main p {
+    font-size: 12px;
+  }
+
+  .cards2 {
+    width: 280px !important;
+  }
+
+  .cards2 .image img {
+    height: 250px !important;
+    width: 100% !important;
+  }
+
+  .footer-logo2 img {
+    width: 220px;
+  }
+
+  .about-footer p {
+    font-size: 15px;
+  }
+
+  .footer-top ul li {
+    font-size: 13px;
+  }
+
+  .content-ft-main {
+    position: absolute;
+    width: 300px !important;
+    top: -2%;
+    right: 8%;
+  }
+
+  .footer-logo2 img {
+    width: 330px;
+  }
+
+  .footer-bottomend {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .footer-bottomend span {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 30px;
+  }
+
+  .treatment-ovr-sec {
+    display: flex !important;
+    justify-content: center !important;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 767px) {
+  .head-top {
+    margin-top: 2px !important;
+    display: flex;
+    flex-direction: column;
+  }
+  .head-top .logo img {
+    padding-top: 0;
+    margin-top: 0;
+    width: 220px !important;
+    height: 45px;
+  }
+
+  .head-right {
+    height: 40px;
+    padding-top: 10px;
+    padding-bottom: 0px !important;
+    margin-top: 0px !important;
+  }
+  .head-right p {
+    font-size: 5px;
+  }
+  .head-right h6 {
+    font-size: 8px;
+  }
+  .head-right img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .h-right img {
+    margin-right: 7px;
+    margin-top: 0px;
+  }
+  .head1 {
+    margin-right: 5px;
+  }
+
+  .sec1-btm p {
+    width: 90%;
+  }
+  .sec-1 {
+    padding-top: 80px;
+    padding-left: 30px !important;
+  }
+
+  .nav2 ul li a {
+    font-size: 9px;
+  }
+
+  .submit-form {
+    width: 100%;
+  }
+
+  section .r2 {
+    margin-top: 0px !important;
+  }
+
+  .accordion-button {
+    margin-left: 10px;
+    padding-right: 0px !important;
+  }
+  .accordion .ab-1 {
+    padding-right: 100px !important;
+  }
+  .accordion .ab-3 {
+    padding-right: 0px !important;
+  }
+  .accordion .ab-4 {
+    padding-right: 0px !important;
+  }
+
+  .accordion-body p {
+    font-size: 10px !important;
+  }
+
+  .treatment-ovr-sec {
+    display: flex !important;
+    justify-content: center !important;
+  }
+
+  .treatment-ovr img {
+    width: 450px;
+  }
+  .cards2 {
+    width: 280px !important;
+  }
+
+  .cards2 .image img {
+    height: 250px !important;
+    width: 100% !important;
+  }
+
+  .content-ft-main {
+    position: absolute;
+    width: 300px !important;
+    top: -2%;
+    right: 8%;
+  }
+
+  .footer-logo2 img {
+    width: 330px;
+  }
+
+  .footer-bottomend {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .footer-bottomend span {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 30px;
+  }
+
+  .treatment-ovr-sec {
+    display: flex !important;
+    justify-content: center !important;
+  }
+
+  .footer-logo2 img {
+    width: 220px;
+  }
+
+  .about-footer p {
+    font-size: 15px;
+  }
+
+  .footer-top ul li {
+    font-size: 13px;
+  }
+}
+
+@media (min-width: 1131px) and (max-width: 1291px) {
+  .head-top {
+    height: 60px !important;
+  }
+
+  .head-right {
+    margin-top: 0px;
+  }
+
+  .head-right p {
+    font-size: 11px;
+  }
+  .head-right h6 {
+    font-size: 13px;
+  }
+
+  .logo img {
+    width: 150px !important;
+  }
+}
