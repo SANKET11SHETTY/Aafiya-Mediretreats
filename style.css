@@ -112,6 +112,13 @@ section .sec-1 {
   color: white;
   font-weight: 600;
   padding: 8px 28px;
+  transition: transform 1000ms;
+}
+.sec1-btm button:hover, .sec1-btm button:focus-visible {
+  
+  color: rgb(243, 246, 85);
+  transform: translateY(-0.75rem);
+  transition: transform 500ms;
 }
 
 /* Section 2 Nav - Overview */
@@ -262,6 +269,15 @@ section .sec-1 {
   padding: 12px 28px;
   width: 100%;
   border-radius: 5px;
+  transition: transform 1000ms;
+}
+.submit-form button:hover, .submit-form:focus-visible {
+  
+  color: yellow;
+  transform: translateY(0.75rem);
+  transition: transform 250ms;
+
+  
 }
 
 .submit-form h3 {
@@ -385,6 +401,13 @@ section .r2 {
   color: white;
   font-weight: 600;
   padding: 8px 36px;
+  transition: transform 1000ms;
+}
+.sec-btm button:hover, .sec-btm button:focus-visible {
+  color: rgb(227, 254, 74);
+  transform: translateY(-0.75rem);
+  transition: transform 500ms;
+
 }
 
 .sec-btm span {
@@ -537,3 +560,61 @@ footer {
   background-color: rgba(255, 255, 255, 0.316);
 border-radius:30%;
 }
+
+.darkModer .container h3{
+  background: linear-gradient(90deg, #05a0f6, #51bffd) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Animations */
+
+  @keyframes appear{
+    from{
+      opacity: 0;
+      scale:0.5;
+    }
+    to{
+      opacity: 1;
+      scale:1;
+    }
+  }
+
+ .knee-rep, .content-ft-main{
+  animation: appear linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+ }
+
+ .ani-h{
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateX(-100%);
+  transition: all 0.5s;
+ }
+ .ani-h-show{
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
+ }
+
+.scroll-watcher{
+  height: 3px;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  background-color: rgb(255, 0, 0);
+  width: 100%;
+  scale: 0 1;
+  transform-origin: left;
+  animation: scroll-watcher linear;
+  animation-timeline: scroll();
+}
+
+@keyframes scroll-watcher{
+to{scale: 1 1;}
+}
+
+
+
+
