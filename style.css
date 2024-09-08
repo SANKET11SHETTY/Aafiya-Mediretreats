@@ -114,8 +114,8 @@ section .sec-1 {
   padding: 8px 28px;
   transition: transform 1000ms;
 }
-.sec1-btm button:hover, .sec1-btm button:focus-visible {
-  
+.sec1-btm button:hover,
+.sec1-btm button:focus-visible {
   color: rgb(243, 246, 85);
   transform: translateY(-0.75rem);
   transition: transform 500ms;
@@ -271,13 +271,11 @@ section .sec-1 {
   border-radius: 5px;
   transition: transform 1000ms;
 }
-.submit-form button:hover, .submit-form:focus-visible {
-  
+.submit-form button:hover,
+.submit-form:focus-visible {
   color: yellow;
   transform: translateY(0.75rem);
   transition: transform 250ms;
-
-  
 }
 
 .submit-form h3 {
@@ -403,11 +401,11 @@ section .r2 {
   padding: 8px 36px;
   transition: transform 1000ms;
 }
-.sec-btm button:hover, .sec-btm button:focus-visible {
+.sec-btm button:hover,
+.sec-btm button:focus-visible {
   color: rgb(227, 254, 74);
   transform: translateY(-0.75rem);
   transition: transform 500ms;
-
 }
 
 .sec-btm span {
@@ -488,12 +486,11 @@ footer {
   color: white !important;
 }
 
-
 .darkmoding {
   padding: 0;
   width: 30px;
   height: 30px;
-  
+
   font-size: 2px !important;
 }
 .darkmoding svg {
@@ -502,25 +499,24 @@ footer {
   margin-left: -3px !important;
 }
 
-.darkmoding svg:last-child{
+.darkmoding svg:last-child {
   display: none;
   color: black;
 }
-.logo2{
+.logo2 {
   display: none;
 }
 
-.darkModer .logo1{
+.darkModer .logo1 {
   display: none;
 }
-.darkModer .logo2{
+.darkModer .logo2 {
   display: block;
 }
 
-.logo2{
+.logo2 {
   margin-bottom: -30px !important;
 }
-
 
 .darkModer .accordion {
   --bs-accordion-btn-bg: black !important;
@@ -529,39 +525,37 @@ footer {
   --bs-accordion-active-color: white;
 }
 
-.darkModer .car-doc-title h3{
+.darkModer .car-doc-title h3 {
   color: black;
 }
 
-.darkModer .rc-Hosp h3{
+.darkModer .rc-Hosp h3 {
   color: white;
 }
 
-.darkModer .cards p{
+.darkModer .cards p {
   color: black;
-
 }
 
 .darkModer .submit-form {
   box-shadow: #05a0f6 0px 3px 6px, #51bffd 0px 3px 6px;
 }
 
-
-.darkModer .darkmoding svg:first-child{
+.darkModer .darkmoding svg:first-child {
   display: none;
 }
 
-.darkModer .darkmoding svg:last-child{
+.darkModer .darkmoding svg:last-child {
   display: block;
   color: black;
 }
 
-.darkModer .h2-ic img{
+.darkModer .h2-ic img {
   background-color: rgba(255, 255, 255, 0.316);
-border-radius:30%;
+  border-radius: 30%;
 }
 
-.darkModer .container h3{
+.darkModer .container h3 {
   background: linear-gradient(90deg, #05a0f6, #51bffd) !important;
   -webkit-background-clip: text !important;
   -webkit-text-fill-color: transparent;
@@ -569,36 +563,40 @@ border-radius:30%;
 
 /* Animations */
 
-  @keyframes appear{
-    from{
-      opacity: 0;
-      scale:0.5;
-    }
-    to{
-      opacity: 1;
-      scale:1;
-    }
+/* Image fade Animation */
+@keyframes appear {
+  from {
+    opacity: 0;
+    scale: 0.5;
   }
+  to {
+    opacity: 1;
+    scale: 1;
+  }
+}
 
- .knee-rep, .content-ft-main{
+.knee-rep,
+.content-ft-main {
   animation: appear linear;
   animation-timeline: view();
   animation-range: entry 0% cover 40%;
- }
+}
 
- .ani-h{
+/* Text Slide Animation */
+.ani-h {
   opacity: 0;
   filter: blur(5px);
   transform: translateX(-100%);
   transition: all 0.5s;
- }
- .ani-h-show{
+}
+.ani-h-show {
   opacity: 1;
   filter: blur(0);
   transform: translateX(0);
- }
+}
 
-.scroll-watcher{
+/* Scroll Animation Top line */
+.scroll-watcher {
   height: 3px;
   position: fixed;
   top: 0;
@@ -611,10 +609,18 @@ border-radius:30%;
   animation-timeline: scroll();
 }
 
-@keyframes scroll-watcher{
-to{scale: 1 1;}
+@keyframes scroll-watcher {
+  to {
+    scale: 1 1;
+  }
 }
 
+/* Preloader */
 
-
-
+#pre-loader1 {
+  background: #fff url(images/Loading.gif) no-repeat center center;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: 5000 !important;
+}
