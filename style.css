@@ -73,6 +73,24 @@ Nav .nav-search {
   height: 100%;
   background-color: #107df7;
   cursor: pointer;
+
+}
+
+Nav .nav-search  input{
+  background: transparent;
+  outline: none;
+  border: none;
+  width: 70%;
+  
+}
+
+Nav .nav-search input::placeholder {
+  color: white;
+  opacity: 1; 
+}
+
+Nav .nav-search input::-ms-input-placeholder {
+  color: white;
 }
 
 /* Section 1 Total Knee replacement */
