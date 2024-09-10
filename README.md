@@ -1,4 +1,4 @@
-Hi I have developed a Medical Homepage using HTML, CSS, JAVASCRIPT, BOOTSTRAP, and JQUERY. This webpage includes Owl Carousel with autoplay, Dark mode, CSS animations and form submission features. When the form is been submitted, the details will be received on my Email ID.
+Developed a Dynamic responsive Hospital Homepage using Bootstrap, CSS, and jQuery, featuring a dynamic owl carousel, dark mode functionality, and engaging CSS animations. Implemented a seamless form submission process, enabling efficient communication by sending form details directly to my email inbox.
 
 
 Here is the preview of my Homepage.
