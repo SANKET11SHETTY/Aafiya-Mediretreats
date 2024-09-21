@@ -1,4 +1,8 @@
 @media screen and (max-width: 576px) {
+  #cursor {
+    display: none;
+  }
+
   .head-top {
     margin-top: 2px !important;
     display: flex;
@@ -501,6 +505,10 @@
 }
 
 @media (min-width: 577px) and (max-width: 767px) {
+  #cursor {
+    display: none;
+  }
+
   .head-top {
     margin-top: 2px !important;
     display: flex;
